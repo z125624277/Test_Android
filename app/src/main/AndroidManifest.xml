@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--這個檔用來存放APP的設定檔：權限、程式名稱等等...-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="c.pong.test_android">
 
