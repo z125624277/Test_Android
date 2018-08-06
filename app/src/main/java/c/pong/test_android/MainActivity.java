@@ -15,6 +15,19 @@ public class MainActivity extends AppCompatActivity {
     //findViewById會傳回View類別因此需要強制轉換變成(TextView)
     mytext.setText("我設定的文字");
 
+    //java物件導向觀念
+    rectangle r1=new rectangle();//產生自己所創造的物件
+        r1.w=10;
+        r1.h=5;
+        System.out.println("r1面積:"+r1.area());
     }
 
+    // "Class"類別 是將物件實現的設計圖!(java物件導向觀念)
+    class rectangle{
+        int w;
+        int h;
+            public int area(){
+                return w*h;
+            }
+    }
 }
